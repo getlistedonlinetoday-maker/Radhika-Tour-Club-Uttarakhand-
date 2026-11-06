@@ -469,10 +469,42 @@
                 </ul>
             </div>
 
-            <!-- Footer Phone Placement -->
+          <!-- Footer Phone Placement -->
             <div class="space-y-3">
                 <h4 class="text-sm font-bold uppercase tracking-wider text-brand-gold">Contact & Booking</h4>
                 <p class="text-xs text-gray-300">Jolly grant, airport Kanharwala, Himalyan chowk, Bhania Wala, Uttarakhand 248001</p>
                 <div class="pt-1">
                     <span class="text-xs text-gray-400 block">Book over Phone:</span>
-                    <a href="tel:+916398075517" class="text-xl font-ext
+                    <a href="tel:+916398075517" class="text-xl font-extrabold text-brand-gold hover:underline flex items-center gap-2 mt-1">
+                        <i class="fa-solid fa-phone text-brand-red"></i> +91 63980 75517
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
+            <p>© 2026 Radhika Tour Club Uttarakhand. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Bottom Action Bar for Mobile Devices -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-2 md:hidden z-50 flex gap-2 shadow-2xl">
+        <a href="tel:+916398075517" class="flex-1 bg-brand-red text-white py-3 rounded-xl font-bold text-center flex items-center justify-center gap-2 text-sm shadow">
+            <i class="fa-solid fa-phone"></i> Call +91 63980 75517
+        </a>
+        <a href="https://wa.me/916398075517" target="_blank" class="flex-1 bg-green-600 text-white py-3 rounded-xl font-bold text-center flex items-center justify-center gap-2 text-sm shadow">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+
+    <!-- Toggle Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

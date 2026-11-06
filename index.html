@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun & Airport Car Rental</title>
+    <meta name="description" content="Reliable self-drive cars and taxi service near Jolly Grant Airport, Dehradun, Rishikesh, Bhaniyawala & Doiwala. Book your car rental today!">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#E53E3E',
+                            darkred: '#C53030',
+                            navy: '#1A202C',
+                            slate: '#2D3748',
+                            gold: '#ECC94B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- Top Bar -->
+    <div class="bg-brand-navy text-white text-xs sm:text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-location-dot text-brand-red"></i>
+                <span class="truncate">Himalyan Chowk, Bhania Wala, Uttarakhand 248001</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="hidden md:inline"><i class="fa-regular fa-clock text-brand-gold mr-1"></i> 24/7 Airport Service</span>
+                <a href="tel:+916398075517" class="font-bold text-brand-gold hover:underline flex items-center gap-1">
+                    <i class="fa-solid fa-phone"></i> +91 63980 75517
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Brand Logo / Name -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="bg-brand-red text-white p-2.5 rounded-lg">
+                    <i class="fa-solid fa-car-side text-2xl"></i>
+                </div>
+                <div>
+                    <span class="block text-xl text-brand-red font-extrabold text-brand-navy leading-tight">Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun || Car rental in Dehradun Airport</span>
+                
+                </div>
+            </a>
+
+            <!-- Header Phone Button (Desktop) -->
+            <div class="hidden lg:flex items-center gap-3">
+                <div class="text-right">
+                    <span class="text-xs text-gray-500 block">Need a Car? Call Us Now</span>
+                    <a href="tel:+916398075517" class="text-lg font-bold text-brand-navy hover:text-brand-red">
+                        <i class="fa-solid fa-phone text-brand-red mr-1"></i> +91 63980 75517
+                    </a>
+                </div>
+                <a href="https://wa.me/916398075517" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 shadow transition">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Book via WhatsApp
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-btn" class="lg:hidden text-2xl text-brand-navy focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-200 px-4 pt-2 pb-4 space-y-3">
+            <a href="#services" class="block py-2 font-medium text-gray-700 hover:text-brand-red">Services</a>
+            <a href="#vehicles" class="block py-2 font-medium text-gray-700 hover:text-brand-red">Our Fleet</a>
+            <a href="#about" class="block py-2 font-medium text-gray-700 hover:text-brand-red">About Us</a>
+            <a href="#contact" class="block py-2 font-medium text-gray-700 hover:text-brand-red">Contact</a>
+            
+            <!-- Mobile Call Button -->
+            <div class="pt-2 border-t border-gray-100 flex flex-col gap-2">
+                <a href="tel:+916398075517" class="w-full text-center bg-brand-red text-white font-bold py-2.5 rounded-lg flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone"></i> Call +91 63980 75517
+                </a>
+                <a href="https://wa.me/916398075517" target="_blank" class="w-full text-center bg-green-600 text-white font-bold py-2.5 rounded-lg flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Booking
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-brand-navy via-brand-slate to-brand-navy text-white py-16 md:py-24 px-4 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <div class="space-y-6">
+                <div class="inline-block bg-brand-red/20 border border-brand-red/40 text-red-200 text-xs sm:text-sm font-semibold px-3 py-1 rounded-full">
+                    <i class="fa-solid fa-plane-arrival mr-1"></i> Near Jolly Grant Airport Dehradun
+                </div>
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun || Car rental in Dehradun Airport
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg">
+                    Convenient airport pickup & drop, local taxi services, and self-drive cars for your journey across Dehradun, Rishikesh, and Uttarakhand.
+                </p>
+
+                <!-- Hero CTA Box -->
+                <div class="bg-white/10 backdrop-blur-md p-4 sm:p-6 rounded-2xl border border-white/10 space-y-4">
+                    <div class="text-sm font-medium text-gray-200">Instant Booking & Assistance:</div>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="tel:+916398075517" class="flex-1 bg-brand-red hover:bg-brand-darkred text-white text-center font-bold py-3 px-6 rounded-xl shadow-lg flex items-center justify-center gap-2 text-lg transition">
+                            <i class="fa-solid fa-phone"></i> +91 63980 75517
+                        </a>
+                        <a href="https://wa.me/916398075517?text=Hi,%20I%20want%20to%20book%20a%20car" target="_blank" class="flex-1 bg-green-600 hover:bg-green-700 text-white text-center font-bold py-3 px-6 rounded-xl shadow-lg flex items-center justify-center gap-2 text-lg transition">
+                            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 gap-2 pt-2 text-center text-xs sm:text-sm text-gray-300">
+                    <div class="bg-white/5 p-2 rounded-lg">
+                        <i class="fa-solid fa-shield-halved text-brand-gold text-lg block mb-1"></i>
+                        Clean & Sanitized
+                    </div>
+                    <div class="bg-white/5 p-2 rounded-lg">
+                        <i class="fa-solid fa-bolt text-brand-gold text-lg block mb-1"></i>
+                        Fast Delivery
+                    </div>
+                    <div class="bg-white/5 p-2 rounded-lg">
+                        <i class="fa-solid fa-wallet text-brand-gold text-lg block mb-1"></i>
+                        Best Local Rates
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Image / Visual Box -->
+            <div class="relative flex justify-center">
+                <div class="w-full bg-white text-gray-800 rounded-2xl p-6 shadow-2xl space-y-6">
+                    <div class="border-b pb-4">
+                        <h3 class="text-xl font-bold text-brand-navy">Quick Booking Request</h3>
+                        <p class="text-xs text-gray-500">Need a car urgently? Call or send details below.</p>
+                    </div>
+                    
+                    <form onsubmit="event.preventDefault(); window.location.href='tel:+916398075517';" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Select Service</label>
+                            <select class="w-full border border-gray-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-brand-red outline-none">
+                                <option>Self Drive Car Rental</option>
+                                <option>Airport Pickup / Drop Taxi</option>
+                                <option>Local Sightseeing Taxi</option>
+                                <option>Outstation Cab Service</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Pickup Location</label>
+                            <input type="text" placeholder="e.g. Jolly Grant Airport, Bhaniyawala" class="w-full border border-gray-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-brand-red outline-none">
+                        </div>
+                        
+                        <!-- Call Trigger CTA Inside Form -->
+                        <div class="pt-2">
+                            <a href="tel:+916398075517" class="w-full block bg-brand-red hover:bg-brand-darkred text-white text-center font-bold py-3 rounded-lg shadow-md transition">
+                                <i class="fa-solid fa-headset mr-2"></i> Call +91 63980 75517 to Book
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Bar -->
+    <section class="bg-brand-red text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div class="space-y-1">
+                <i class="fa-solid fa-car text-2xl text-brand-gold"></i>
+                <h4 class="font-bold text-sm sm:text-base">Self-Drive Cars</h4>
+                <p class="text-xs text-red-100">Hatchbacks, Sedans & SUVs</p>
+            </div>
+            <div class="space-y-1">
+                <i class="fa-solid fa-plane text-2xl text-brand-gold"></i>
+                <h4 class="font-bold text-sm sm:text-base">Airport Transfers</h4>
+                <p class="text-xs text-red-100">Jolly Grant Airport Drop/Pick</p>
+            </div>
+            <div class="space-y-1">
+                <i class="fa-solid fa-route text-2xl text-brand-gold"></i>
+                <h4 class="font-bold text-sm sm:text-base">Rishikesh & Outstation</h4>
+                <p class="text-xs text-red-100">Sightseeing & Hill Rides</p>
+            </div>
+            <div class="space-y-1">
+                <i class="fa-solid fa-clock text-2xl text-brand-gold"></i>
+                <h4 class="font-bold text-sm sm:text-base">24/7 Availability</h4>
+                <p class="text-xs text-red-100">Always Ready for Pickup</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-3xl font-extrabold text-brand-navy mb-3">Our Rental & Taxi Services</h2>
+            <div class="h-1 w-20 bg-brand-red mx-auto rounded-full mb-4"></div>
+            <p class="text-gray-600">Explore Uttarakhand at your own pace with our top-rated car rental and taxi solutions.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-red-100 text-brand-red rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-key"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Self Drive Car Rental</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Enjoy complete privacy and freedom with our well-maintained self-drive cars in Dehradun, Jolly Grant Airport, and Bhaniyawala. Perfect for family trips and solo adventures.
+                    </p>
+                </div>
+                <a href="tel:+916398075517" class="text-brand-red font-bold text-sm flex items-center gap-2 hover:underline">
+                    <i class="fa-solid fa-phone"></i> Call for Vehicles & Rates
+                </a>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-red-100 text-brand-red rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Airport Taxi Service</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Fast and reliable taxi pickup and drop service at Jolly Grant Airport Dehradun. Prompt response near Bhaniyawala and Doiwala.
+                    </p>
+                </div>
+                <a href="tel:+916398075517" class="text-brand-red font-bold text-sm flex items-center gap-2 hover:underline">
+                    <i class="fa-solid fa-phone"></i> Book Airport Taxi
+                </a>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-red-100 text-brand-red rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Outstation & Sightseeing</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Planning a trip to Rishikesh, Mussoorie, Haridwar, or Char Dham? Book comfortable taxis or self-drive cars tailored for hill travel.
+                    </p>
+                </div>
+                <a href="tel:+916398075517" class="text-brand-red font-bold text-sm flex items-center gap-2 hover:underline">
+                    <i class="fa-solid fa-phone"></i> Get Tour Rates
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MIDDLE CALL-TO-ACTION SECTION (Prominent Phone Number Placement) -->
+    <section class="bg-gradient-to-r from-brand-navy to-brand-slate text-white py-12 px-4 my-8">
+        <div class="max-w-5xl mx-auto rounded-3xl p-8 sm:p-12 text-center space-y-6 relative overflow-hidden">
+            <span class="bg-brand-red text-white text-xs uppercase font-bold tracking-widest px-3 py-1 rounded-full">Need Assistance?</span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold">Instant Car Booking Near Jolly Grant Airport</h2>
+            <p class="text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
+                Call Radhika Tour Club Uttarakhand now to check vehicle availability, negotiate custom tour packages, or reserve your self-drive car in Dehradun.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
+                <a href="tel:+916398075517" class="w-full sm:w-auto bg-brand-red hover:bg-brand-darkred text-white font-extrabold text-xl py-4 px-8 rounded-full shadow-2xl flex items-center justify-center gap-3 transform hover:scale-105 transition">
+                    <i class="fa-solid fa-phone-volume text-2xl"></i> +91 63980 75517
+                </a>
+                <a href="https://wa.me/916398075517" target="_blank" class="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-full shadow-lg flex items-center justify-center gap-3 transition">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> Direct WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Storefront Showcase Section -->
+    <section class="py-12 px-4 max-w-7xl mx-auto">
+        <div class="relative overflow-hidden rounded-3xl shadow-2xl border border-gray-200 group max-w-5xl mx-auto">
+            <img src="https://pub-87791c561f3e4177ada84f95c06e60e1.r2.dev/shopfront.webp" alt="Radhika Tour Club Uttarakhand Store Front" class="w-full h-[350px] sm:h-[450px] md:h-[500px] object-cover rounded-3xl transform group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6 sm:p-10">
+                <div class="text-white space-y-2">
+                    <span class="bg-brand-red text-white text-xs uppercase font-bold px-3 py-1 rounded-full">Visit Our Office</span>
+                
+                    <p class="text-sm text-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-brand-gold"></i>
+                        Jolly grant, airport Kanharwala, Himalyan chowk, Bhania Wala, Uttarakhand 248001
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section / Google Business Description Integration -->
+    <section id="about" class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+                <span class="text-brand-red font-bold text-sm tracking-wider uppercase">About Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun || Car rental in Dehradun Airport</span>
+                <h2 class="text-3xl font-extrabold text-brand-navy leading-tight">Your Trusted Travel & Car Rental Partner in Dehradun</h2>
+                <div class="h-1 w-16 bg-brand-red rounded-full"></div>
+                
+                <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                    Radhika Tour Club Uttarakhand provides reliable taxi service, car rental and self-drive car rental services near Jolly Grant Airport, Bhaniyawala and Doiwala, Dehradun.
+                </p>
+                <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                    We offer convenient airport pickup and drop, local taxi service, outstation taxi service and rental cars for family trips, sightseeing and travel across Dehradun, Rishikesh and other popular destinations in Uttarakhand.
+                </p>
+                <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                    Whether you need a taxi from Jolly Grant Airport, a car rental in Bhaniyawala, a taxi in Doiwala or a self-drive car in Dehradun for your Rishikesh trip, we aim to make your journey comfortable and convenient. Contact Radhika Tour Club Uttarakhand for vehicle availability, booking details and travel assistance.
+                </p>
+
+                <div class="pt-4 border-t border-gray-200">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-red-50 text-brand-red p-3 rounded-xl">
+                            <i class="fa-solid fa-phone text-2xl"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-gray-500 block uppercase font-bold">Direct Booking Hotline</span>
+                            <a href="tel:+916398075517" class="text-xl font-extrabold text-brand-navy hover:text-brand-red">
+                                +91 63980 75517
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Locations Served Box -->
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 space-y-6">
+                <h3 class="text-2xl font-bold text-brand-navy border-b pb-4">Major Service Hubs</h3>
+                
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-crosshairs text-brand-red mt-1"></i>
+                        <div>
+                            <strong class="text-brand-navy block">Jolly Grant Airport Dehradun</strong>
+                            <span class="text-xs text-gray-500">Instant pick-up and drop options available right at terminal exit.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-crosshairs text-brand-red mt-1"></i>
+                        <div>
+                            <strong class="text-brand-navy block">Bhaniyawala & Doiwala</strong>
+                            <span class="text-xs text-gray-500">Local self-drive car pickup point & fast local cab dispatch.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-crosshairs text-brand-red mt-1"></i>
+                        <div>
+                            <strong class="text-brand-navy block">Rishikesh & Dehradun City</strong>
+                            <span class="text-xs text-gray-500">Outstation cabs, sightseeing rentals, and hill-certified drivers.</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="bg-gray-50 p-4 rounded-xl text-center border border-gray-200">
+                    <span class="text-xs text-gray-500">Book your vehicle in under 2 minutes</span>
+                    <a href="tel:+916398075517" class="block text-brand-red font-bold text-lg hover:underline mt-1">
+                        <i class="fa-solid fa-phone mr-1"></i> Call +91 63980 75517
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Address & Map/Contact Section -->
+    <section id="contact" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
+            <!-- Contact Card -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg space-y-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-extrabold text-brand-navy mb-4">Contact Information</h3>
+                    <p class="text-gray-600 text-sm mb-6">Reach out to us directly for quick bookings, vehicle availability, and pricing details.</p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-100 text-brand-red rounded-lg flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-building"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brand-navy">Business Name</h4>
+                                <p class="text-sm text-gray-600">Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun || Car rental in Dehradun Airport</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-100 text-brand-red rounded-lg flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brand-navy">Address</h4>
+                                <p class="text-sm text-gray-600">Jolly grant, airport Kanharwala, Himalyan chowk, Bhania Wala, Uttarakhand 248001</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-100 text-brand-red rounded-lg flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brand-navy">Phone Number</h4>
+                                <a href="tel:+916398075517" class="text-lg font-bold text-brand-red hover:underline">
+                                    +91 63980 75517
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6 border-t border-gray-100 flex flex-col sm:flex-row gap-3">
+                    <a href="tel:+916398075517" class="flex-1 bg-brand-navy hover:bg-brand-slate text-white text-center font-bold py-3 rounded-xl transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/916398075517" target="_blank" class="flex-1 bg-green-600 hover:bg-green-700 text-white text-center font-bold py-3 rounded-xl transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Map Location Placeholder Box -->
+            <div class="bg-white p-4 rounded-3xl shadow-lg border border-gray-200 flex flex-col h-full min-h-[300px]">
+                <div class="bg-gray-200 rounded-2xl flex-1 flex flex-col items-center justify-center p-6 text-center">
+                    <i class="fa-solid fa-map-pin text-4xl text-brand-red mb-3"></i>
+                    <h4 class="font-bold text-brand-navy text-lg">Location Highlights</h4>
+                    <p class="text-sm text-gray-600 max-w-sm mt-1">
+                        Located near Himalyan Chowk, Bhania Wala. Serving Jolly Grant Airport, Dehradun & Doiwala areas.
+                    </p>
+                    <a href="https://maps.google.com/?q=Bhania+Wala+Uttarakhand+248001" target="_blank" class="mt-4 bg-white text-brand-navy border border-gray-300 hover:bg-gray-50 font-bold px-4 py-2 rounded-lg text-xs shadow-sm inline-flex items-center gap-2">
+                        <i class="fa-solid fa-directions text-brand-red"></i> Get Directions on Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-navy text-white pt-12 pb-24 md:pb-8 mt-auto border-t-4 border-brand-red">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 mb-8">
+            <div class="space-y-3">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-car-side text-brand-red text-2xl"></i>
+                    <span class="text-xl font-bold">Radhika Tour Club Uttarakhand - Self Drive Car In Dehradun || Car rental in Dehradun Airport</span>
+                </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                    Providing high-quality self-drive rental cars and airport cab services across Dehradun, Jolly Grant Airport, Bhaniyawala, and Rishikesh.
+                </p>
+            </div>
+
+            <div class="space-y-2">
+                <h4 class="text-sm font-bold uppercase tracking-wider text-brand-gold">Quick Links</h4>
+                <ul class="text-xs space-y-2 text-gray-300">
+                    <li><a href="#services" class="hover:text-white">Self Drive Cars Dehradun</a></li>
+                    <li><a href="#services" class="hover:text-white">Jolly Grant Airport Car Rental</a></li>
+                    <li><a href="#services" class="hover:text-white">Bhaniyawala & Doiwala Taxi</a></li>
+                    <li><a href="#services" class="hover:text-white">Rishikesh Tour Cabs</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Phone Placement -->
+            <div class="space-y-3">
+                <h4 class="text-sm font-bold uppercase tracking-wider text-brand-gold">Contact & Booking</h4>
+                <p class="text-xs text-gray-300">Jolly grant, airport Kanharwala, Himalyan chowk, Bhania Wala, Uttarakhand 248001</p>
+                <div class="pt-1">
+                    <span class="text-xs text-gray-400 block">Book over Phone:</span>
+                    <a href="tel:+916398075517" class="text-xl font-ext
